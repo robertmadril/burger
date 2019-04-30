@@ -1,5 +1,3 @@
-DROP IF EXISTS burgers_db;
-
 CREATE DATABASE burgers_db;
 
 CREATE TABLE burgers (
@@ -9,5 +7,3 @@ CREATE TABLE burgers (
     devoured BOOLEAN NOT NULL
 
 );
-
-
