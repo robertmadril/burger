@@ -25,9 +25,7 @@ app.listen(PORT, function() {
 
 /* TODO
 
-Add orm functions to handle selectAll, insert, update queries with no data
-Add model information to require specific burger info
-Set up controller to input appropriate data from client request
 Set-up HTML main and view pages on handlebars
+Set-up client AJAX requests
 
 */
