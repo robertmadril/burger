@@ -26,5 +26,6 @@ app.listen(PORT, function() {
 /* TODO
 
 Make HTML pretty
+Add click event to show burger gif being eaten?
 
 */
