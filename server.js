@@ -25,6 +25,6 @@ app.listen(PORT, function() {
 
 /* TODO
 
-Set-up HTML main and view pages on handlebars
+Make HTML pretty
 
 */
