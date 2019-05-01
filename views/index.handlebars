@@ -3,7 +3,7 @@
 <ul>
   {{#each burgers}}
     {{#unless devoured}}
-       {{!--  {{> cats/cat-block sleep=true}} --}}
+        {{> burgers/burger-item devoured=true}}
     {{/unless}}
   {{/each}}
 </ul>
@@ -13,7 +13,7 @@
 <ul>
   {{#each burgers}}
     {{#if devoured}}
-      {{!-- {{> cats/cat-block sleep=false}} --}}
+      {{> burgers/burger-item devoured=false}}
     {{/if}}
   {{/each}}
 </ul>
