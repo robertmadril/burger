@@ -33,10 +33,31 @@ body {
 .add-burger {
     clear: both;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+ul {
+    padding: 0;
 }
 
 li {
     list-style: none;
+    margin-left: 0;
+}
+
+button {
+    background-color: #74B519;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #E6C843;
+    color: white;
+    cursor: pointer;
 }
 
 

@@ -1,7 +1,18 @@
+
+
+
 $(function () {
+
+    $("#burger-gif").attr("src", "/assets/images/burger.gif");
+
+    setTimeout(function(){
+        $("#burger-gif").attr("src", "/assets/images/burger.jpg");
+    }, 3450);
+    
     $(".eat-da-burger").on("click", function (event) {
         var id = $(this).data("id");
         var isDevoured = $(this).data("devoured");
+
 
         var newEatState = {
             devoured: isDevoured
@@ -16,6 +27,7 @@ $(function () {
                 console.log("changed eat state to", newEatState);
                 // Reload the page to get the updated list
                 location.reload();
+
             }
         );
     });
