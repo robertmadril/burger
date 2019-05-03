@@ -1,7 +1,37 @@
 body {
-    background-color: #FA8C00;
     margin: 0;
     padding: 0;
+    background-color: #FF8001;
     font-family: Helvetica Neue, Arial, sans-serif;
+    color: white;
 };
+
+.burger-container {
+    height: 100px;
+    width: 100px;
+};
+
+#burger-gif {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+};
+
+.undevoured {
+    width: 45%;
+    float: left;
+};
+
+.devoured {
+    width: 45%;
+    float: right;
+};
+
+.add-burger {
+    clear: both;
+};
+
+
+
+
 
