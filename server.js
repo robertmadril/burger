@@ -22,12 +22,3 @@ app.listen(PORT, function() {
 
   console.log("Server listening on: http://localhost:" + PORT);
 });
-
-/* TODO
-
-Make HTML pretty
-Add click event to show burger gif being eaten?
-Use an image of a burger GIF and replace with GIF on click event setTimeout for a few seconds
-https://giphy.com/gifs/bleedgfx-burger-ToMjGplHPoYqSg7oACc
-
-*/
