@@ -7,7 +7,7 @@ $(function () {
 
     setTimeout(function(){
         $("#burger-gif").attr("src", "/assets/images/burger.jpg");
-    }, 3450);
+    }, 3400);
     
     $(".eat-da-burger").on("click", function (event) {
         var id = $(this).data("id");
